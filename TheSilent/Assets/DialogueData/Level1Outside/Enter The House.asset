@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad181ba8da5304c4a8e7dddd723e51fe, type: 3}
+  m_Name: Enter The House
+  m_EditorClassIdentifier: 
+  dialogue:
+  - The door can be opened.
+  - Enter the door ?
+  responses:
+  - responseText: Yes
+    dialogueObject: {fileID: 11400000, guid: fbc85a437075b4148af804640854dffe, type: 2}
+  - responseText: No
+    dialogueObject: {fileID: 11400000, guid: 5bc21d8a9ef1d4547bb250c6244cbb25, type: 2}
